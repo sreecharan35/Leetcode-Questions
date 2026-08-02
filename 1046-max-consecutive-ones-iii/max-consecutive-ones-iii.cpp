@@ -13,9 +13,10 @@ public:
             if(z>k){
                 if(nums[i]==0) z--;
                 i++;
-            }
+            }            
             ans=max(ans,j-i+1);
             j++;
+            
         }
         return ans;
         // int maxlen=0;
