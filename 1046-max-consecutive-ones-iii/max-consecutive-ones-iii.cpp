@@ -10,7 +10,7 @@ public:
             if(nums[j]==0){
                 z++;
             }
-            while(z>k){
+            if(z>k){
                 if(nums[i]==0) z--;
                 i++;
             }
