@@ -8,6 +8,7 @@ public:
             if(s[i]=='('){
                 stk.push(res);
                 res="";
+                // continue;
             }
             else if(s[i]==')'){
                 reverse(res.begin(),res.end());
