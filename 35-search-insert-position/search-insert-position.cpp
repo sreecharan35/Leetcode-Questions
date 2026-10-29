@@ -4,10 +4,10 @@ public:
         int n=nums.size();
         int i=0;
         int j=n-1;
-        //  mid;
+        int mid;
         
         while(i<=j){
-            int mid=(i+j)/2;
+            mid=(i+j)/2;
             if(nums[mid]==target){
                 return mid;
             }
