@@ -11,9 +11,7 @@ public:
             int area=mini*width;
             res=max(res,area);
             if(height[i]<height[j]) i++;
-            else if(height[i]>height[j]) j--;
             else{
-                i++;
                 j--;
             }
         }
