@@ -10,7 +10,7 @@ public:
                 count++;
             }
         for(int i=1;i<n-1;i++){
-            if((long long)nums[i - 1] + nums[i + 1] <= 2LL * nums[i]){
+            if(nums[i - 1] + nums[i + 1] <=2*nums[i]){
                 count++;
             }
             
