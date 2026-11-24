@@ -9,7 +9,7 @@ public:
             if(rain[i]==0){
                 v.push_back("None");
             }
-            else if(i<n-1 and rain[i+1]==1){
+            else if(i<n-1 and rain[i]==rain[i+1]==1){
                 if(alice<=bob){
                     v.push_back("Alice");
                     alice++;
